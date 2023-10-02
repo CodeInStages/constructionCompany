@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -34,9 +34,17 @@ header nav {
 nav ul {
     display: flex;
     gap: 3.2rem;
+    font-weight: 400;
 }
 
 nav li a{
     color: #14171F;
     font-size: 18px;
+    text-wrap: nowrap;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    color: #F9995D;
+    font-weight: 600;
 }
