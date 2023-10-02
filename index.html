@@ -3,34 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-        <nav>
-            <div class="navLogo">
-                <a href="">
-                    <img src="assets/img/logo.png" alt="logo">
-                </a>
-                <P><span class="logoItalic">The</span>Box</P>
-            </div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About us</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Services</a></li>
-                <li><a href="/">Contact Us</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="navLogo">
+          <a href="">
+            <img src="assets/img/logo.png" alt="logo" />
+          </a>
+          <p><span class="logoItalic">The</span>Box</p>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About us</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <section>
-            <h1></h1>
-        </section>
-        <section>
-
-        </section>
+    <main id="main">
+      <section class="mainSection">
+        <h1 class="mainTitle">
+          Building things <br />
+          is our mission.
+        </h1>
+        <div class="projectContainer">
+            <div class="projectDescription">
+                <h1>Feature Projects</h1>
+                <p>The National University of Architecture</p>
+            </div>
+            <div class="buttonContainer">
+                <button>Back</button>
+                <button onclick="nextButton()">Next</button>
+            </div>
+        </div>
+      </section>
     </main>
+
+    <script src="assets/index.js"></script>
   </body>
 </html>

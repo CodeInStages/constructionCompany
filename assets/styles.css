@@ -10,7 +10,7 @@
 }
 
 header nav {
-    margin: 1.8rem 7rem;
+    padding: 1rem 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,4 +47,58 @@ nav li a{
 nav li a:hover {
     color: #F9995D;
     font-weight: 600;
+}
+
+main {
+    height: 34.93rem; 
+    background-image: url("img/bg1.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.mainTitle {
+    font-size: 72px;
+    font-weight: 600;
+    margin-left: 7rem;
+}
+
+.projectContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 416px;
+    height: 150px;
+    background-color: #3559C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+    color: #FFF;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.buttonContainer button {
+    background-color: #14171F;
+    color: #FFF;
+    padding: 15px 20px;
+    flex: 1;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer button:first-child {
+    border-right: 2px solid white;
 }
